@@ -1,0 +1,239 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 0
+  m_GuidHigh: 0
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4791342822867370058
+      m_GuidHigh: 18242347361865221552
+    m_SerializedTextureGuid:
+      m_GuidLow: 12976046982892207778
+      m_GuidHigh: 5900940843896417914
+    m_Size: {x: 0.062, y: 0.106221415}
+    m_SpecifySize: 1
+    m_Name: card_00
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5313729330335497086
+      m_GuidHigh: 14645231319225478574
+    m_SerializedTextureGuid:
+      m_GuidLow: 14182263839391477563
+      m_GuidHigh: 3507668964784421306
+    m_Size: {x: 0.062, y: 0.106221415}
+    m_SpecifySize: 1
+    m_Name: card_01
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5524876337774319340
+      m_GuidHigh: 9977719081659524526
+    m_SerializedTextureGuid:
+      m_GuidLow: 6060924745541762576
+      m_GuidHigh: 13968298808593356121
+    m_Size: {x: 0.062, y: 0.106221415}
+    m_SpecifySize: 1
+    m_Name: card_02
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4735892687637216788
+      m_GuidHigh: 12736747086081110184
+    m_SerializedTextureGuid:
+      m_GuidLow: 7256662177867415470
+      m_GuidHigh: 11806540048217891081
+    m_Size: {x: 0.062, y: 0.106221415}
+    m_SpecifySize: 1
+    m_Name: card_03
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5220083389150271852
+      m_GuidHigh: 1704047016453863833
+    m_SerializedTextureGuid:
+      m_GuidLow: 6115729284474786011
+      m_GuidHigh: 9934013848390712232
+    m_Size: {x: 0.062, y: 0.106221415}
+    m_SpecifySize: 1
+    m_Name: card_04
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5183837621100997858
+      m_GuidHigh: 9387225669681725362
+    m_SerializedTextureGuid:
+      m_GuidLow: 316589674904081641
+      m_GuidHigh: 7227185932421890315
+    m_Size: {x: 0.062, y: 0.106221415}
+    m_SpecifySize: 1
+    m_Name: card_05
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5313207813800214049
+      m_GuidHigh: 3144510891426493600
+    m_SerializedTextureGuid:
+      m_GuidLow: 3780743812361674795
+      m_GuidHigh: 5685614256745079672
+    m_Size: {x: 0.062, y: 0.106221415}
+    m_SpecifySize: 1
+    m_Name: card_06
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5547230616114940510
+      m_GuidHigh: 2054719949664011688
+    m_SerializedTextureGuid:
+      m_GuidLow: 353026031487347564
+      m_GuidHigh: 10454295954551287528
+    m_Size: {x: 0.062, y: 0.106221415}
+    m_SpecifySize: 1
+    m_Name: card_07
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4677787247998903380
+      m_GuidHigh: 3363216960832311695
+    m_SerializedTextureGuid:
+      m_GuidLow: 16476790959934472631
+      m_GuidHigh: 16925884225167422745
+    m_Size: {x: 0.062, y: 0.106221415}
+    m_SpecifySize: 1
+    m_Name: card_08
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5488578553206131948
+      m_GuidHigh: 10267713978263285944
+    m_SerializedTextureGuid:
+      m_GuidLow: 15290305632220062297
+      m_GuidHigh: 5838929055049019673
+    m_Size: {x: 0.062, y: 0.106221415}
+    m_SpecifySize: 1
+    m_Name: card_09
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5498890307833682758
+      m_GuidHigh: 15033653006085389700
+    m_SerializedTextureGuid:
+      m_GuidLow: 13036981069631041963
+      m_GuidHigh: 11859720966682142696
+    m_Size: {x: 0.062, y: 0.106221415}
+    m_SpecifySize: 1
+    m_Name: card_10
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5009338304171809202
+      m_GuidHigh: 7680641740698879660
+    m_SerializedTextureGuid:
+      m_GuidLow: 11837623588319797529
+      m_GuidHigh: 147281413382905961
+    m_Size: {x: 0.062, y: 0.106221415}
+    m_SpecifySize: 1
+    m_Name: card_11
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5445925744562020739
+      m_GuidHigh: 9416479608623446718
+    m_SerializedTextureGuid:
+      m_GuidLow: 13036902356939168960
+      m_GuidHigh: 5791552180413359499
+    m_Size: {x: 0.062, y: 0.106221415}
+    m_SpecifySize: 1
+    m_Name: card_12
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5746796058640929597
+      m_GuidHigh: 499172156694623368
+    m_SerializedTextureGuid:
+      m_GuidLow: 11875853376024085607
+      m_GuidHigh: 13330154221805199624
+    m_Size: {x: 0.062, y: 0.106221415}
+    m_SpecifySize: 1
+    m_Name: card_13
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5037586770279191991
+      m_GuidHigh: 3810743958754603698
+    m_SerializedTextureGuid:
+      m_GuidLow: 14136122342921337118
+      m_GuidHigh: 97530811257101352
+    m_Size: {x: 0.062, y: 0.106221415}
+    m_SpecifySize: 1
+    m_Name: card_14
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4930071996460529185
+      m_GuidHigh: 8100052436267491216
+    m_SerializedTextureGuid:
+      m_GuidLow: 2653308019524949187
+      m_GuidHigh: 16579338764584384344
+    m_Size: {x: 0.062, y: 0.106221415}
+    m_SpecifySize: 1
+    m_Name: card_15
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4866169316673504770
+      m_GuidHigh: 15277387394702719387
+    m_SerializedTextureGuid:
+      m_GuidLow: 7246791506446248304
+      m_GuidHigh: 9538418568013115
+    m_Size: {x: 0.062, y: 0.106221415}
+    m_SpecifySize: 1
+    m_Name: card_16
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5564577914893810078
+      m_GuidHigh: 13350975294017471894
+    m_SerializedTextureGuid:
+      m_GuidLow: 298892847058756287
+      m_GuidHigh: 10218366518739362025
+    m_Size: {x: 0.062, y: 0.106221415}
+    m_SpecifySize: 1
+    m_Name: card_17
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5233272254938721586
+      m_GuidHigh: 18173521558460086970
+    m_SerializedTextureGuid:
+      m_GuidLow: 17603497455444098808
+      m_GuidHigh: 15017751838000948778
+    m_Size: {x: 0.062, y: 0.106221415}
+    m_SpecifySize: 1
+    m_Name: card_18
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5399400074995572916
+      m_GuidHigh: 26777771078191807
+    m_SerializedTextureGuid:
+      m_GuidLow: 16464862863623653401
+      m_GuidHigh: 13012905933056946377
+    m_Size: {x: 0.062, y: 0.106221415}
+    m_SpecifySize: 1
+    m_Name: card_19
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5511119872045633441
+      m_GuidHigh: 8087031268092289431
+    m_SerializedTextureGuid:
+      m_GuidLow: 1492383758259274163
+      m_GuidHigh: 13070634944181281321
+    m_Size: {x: 0.062, y: 0.106221415}
+    m_SpecifySize: 1
+    m_Name: card_20
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5604806309209733928
+      m_GuidHigh: 17648505208268424364
+    m_SerializedTextureGuid:
+      m_GuidLow: 13038212422266875506
+      m_GuidHigh: 2029605938764401896
+    m_Size: {x: 0.062, y: 0.106221415}
+    m_SpecifySize: 1
+    m_Name: card_21
+    m_Texture: {fileID: 0}
