@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51681
+55866
 Successfully changed project path to: /Users/tszyuetwong/Documents/GitHub/AR-Tarot/AR-Tarot
 /Users/tszyuetwong/Documents/GitHub/AR-Tarot/AR-Tarot
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,13 +54,13 @@ Successfully changed project path to: /Users/tszyuetwong/Documents/GitHub/AR-Tar
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 119.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 121.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.5f1 (feea5ec8f162)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.1.5f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/tszyuetwong/Documents/GitHub/AR-Tarot/AR-Tarot/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
+Color LCD preferred device: AMD Radeon Pro 560X (high power)
 Metal devices available: 2
 0: AMD Radeon Pro 560X (high power)
 1: Intel(R) UHD Graphics 630 (low power)
@@ -70,56 +70,56 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.1.5f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.1.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.1.5f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56886
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56236
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.1.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.1.5f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.000908 seconds.
+Registered in 0.000857 seconds.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 107.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 116.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.830 seconds
+- Completed reload, in  0.815 seconds
 Domain Reload Profiling:
-	ReloadAssembly (831ms)
-		BeginReloadAssembly (70ms)
+	ReloadAssembly (815ms)
+		BeginReloadAssembly (65ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (631ms)
-			LoadAssemblies (71ms)
+		EndReloadAssembly (618ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (159ms)
-				TypeCache.Initialize (159ms)
-					TypeCache.ScanAssembly (158ms)
+			SetupTypeCache (161ms)
+				TypeCache.Initialize (160ms)
+					TypeCache.ScanAssembly (159ms)
 				ResolveRequiredComponents (1ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (370ms)
+			SetupLoadedEditorAssemblies (360ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (58ms)
-				SetLoadedEditorAssemblies (10ms)
-				RefreshPlugins (108ms)
+				SetLoadedEditorAssemblies (11ms)
+				RefreshPlugins (116ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (130ms)
-				ProcessInitializeOnLoadMethodAttributes (63ms)
+				ProcessInitializeOnLoadAttributes (123ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.016401 seconds.
+Registered in 0.003677 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/tszyuetwong/Documents/GitHub/AR-Tarot/AR-Tarot/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image /Users/tszyuetwong/Documents/GitHub/AR-Tarot/AR-Tarot/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 108.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 122.93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -132,32 +132,32 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Completed reload, in  1.702 seconds
+- Completed reload, in  1.718 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1703ms)
-		BeginReloadAssembly (238ms)
+	ReloadAssembly (1720ms)
+		BeginReloadAssembly (234ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (135ms)
-		EndReloadAssembly (1318ms)
-			LoadAssemblies (138ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (401ms)
-				TypeCache.Initialize (393ms)
-					TypeCache.ScanAssembly (389ms)
+			CreateAndSetChildDomain (133ms)
+		EndReloadAssembly (1338ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (420ms)
+				TypeCache.Initialize (412ms)
+					TypeCache.ScanAssembly (408ms)
 				ResolveRequiredComponents (8ms)
 			ReleaseScriptCaches (10ms)
-			RebuildScriptCaches (82ms)
-			SetupLoadedEditorAssemblies (612ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (648ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (5ms)
-				RefreshPlugins (109ms)
-				BeforeProcessingInitializeOnLoad (110ms)
-				ProcessInitializeOnLoadAttributes (340ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (123ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (352ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -167,12 +167,12 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2022.1.5f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4541 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 49 unused Assets / (63.5 KB). Loaded Objects now: 4986.
 Memory consumption went from 0.80 GB to 0.80 GB.
-Total: 5.327750 ms (FindLiveObjects: 0.492889 ms CreateObjectMapping: 0.590953 ms MarkObjects: 4.118603 ms  DeleteObjects: 0.124378 ms)
+Total: 4.927256 ms (FindLiveObjects: 0.478443 ms CreateObjectMapping: 0.544164 ms MarkObjects: 3.782575 ms  DeleteObjects: 0.121118 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -186,7 +186,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 170682.834611 seconds.
-  path: Assets/ReferenceImageLibrary.asset
-  artifactKey: Guid(e94188b0c53904e38b01cd430cfbdea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ReferenceImageLibrary.asset using Guid(e94188b0c53904e38b01cd430cfbdea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35ad2b45a3e465794fcf716561c365d') in 0.134601 seconds 
+  Time since last request: 58265.371618 seconds.
+  path: Assets/Prefabs/Cards/card_01.prefab
+  artifactKey: Guid(e1d98f1ac387a4e2da17262e995962b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cards/card_01.prefab using Guid(e1d98f1ac387a4e2da17262e995962b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2d99e712e489c30bbb3d2cdc7528f4') in 0.143849 seconds 
