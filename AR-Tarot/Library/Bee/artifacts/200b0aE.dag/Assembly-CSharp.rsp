@@ -391,6 +391,8 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.XR.MagicLeap.ref.dll"
 "Assets/ExampleAssets/Scripts/AnchorCreator.cs"
 "Assets/ExampleAssets/Scripts/ARFeatheredPlaneMeshVisualizer.cs"
+"Assets/Scenes/Image Tracking/Scripts/DynamicPrefab.cs"
+"Assets/Scenes/Image Tracking/Scripts/PrefabImagePairManager.cs"
 -langversion:9.0
 
 /deterministic

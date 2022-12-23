@@ -1,0 +1,297 @@
+Unity Editor version:    2022.1.5f1 (feea5ec8f162)
+Branch:                  2022.1/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.5.1 (Build 21G83)
+Darwin version:          21.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.1.5f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/tszyuetwong/Documents/GitHub/AR-Tarot/AR-Tarot
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55299
+Successfully changed project path to: /Users/tszyuetwong/Documents/GitHub/AR-Tarot/AR-Tarot
+/Users/tszyuetwong/Documents/GitHub/AR-Tarot/AR-Tarot
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 137.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.5f1 (feea5ec8f162)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.1.5f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/tszyuetwong/Documents/GitHub/AR-Tarot/AR-Tarot/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
+Metal devices available: 2
+0: AMD Radeon Pro 560X (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 560X (high power)
+Initializing Metal device caps: AMD Radeon Pro 560X
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.1.5f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.1.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.1.5f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56863
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.1.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.1.5f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.000830 seconds.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 105.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.763 seconds
+Domain Reload Profiling:
+	ReloadAssembly (763ms)
+		BeginReloadAssembly (62ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (576ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (148ms)
+				TypeCache.Initialize (148ms)
+					TypeCache.ScanAssembly (147ms)
+				ResolveRequiredComponents (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (337ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (57ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (105ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (118ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.013054 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/tszyuetwong/Documents/GitHub/AR-Tarot/AR-Tarot/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/tszyuetwong/Documents/GitHub/AR-Tarot/AR-Tarot/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 110.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  1.852 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1853ms)
+		BeginReloadAssembly (222ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (133ms)
+		EndReloadAssembly (1499ms)
+			LoadAssemblies (176ms)
+			RebuildTransferFunctionScriptingTraits (2ms)
+			SetupTypeCache (464ms)
+				TypeCache.Initialize (456ms)
+					TypeCache.ScanAssembly (450ms)
+				ResolveRequiredComponents (8ms)
+			ReleaseScriptCaches (13ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (666ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (111ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (372ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2022.1.5f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.16 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4540 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (63.4 KB). Loaded Objects now: 4985.
+Memory consumption went from 0.80 GB to 0.80 GB.
+Total: 6.652419 ms (FindLiveObjects: 0.677426 ms CreateObjectMapping: 1.068787 ms MarkObjects: 4.751911 ms  DeleteObjects: 0.153448 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 424777.762721 seconds.
+  path: Assets/ExampleAssets/Scenes
+  artifactKey: Guid(4e7f5acf46ddb42618485f6adf8af0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Scenes using Guid(4e7f5acf46ddb42618485f6adf8af0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e538af6f9737584d9703f6635ae71561') in 0.004211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.813719 seconds.
+  path: Assets/ExampleAssets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfdeffc7d0d8db75e3dbdf129e45e100') in 0.003118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.056540 seconds.
+  path: Assets/Scenes/BlankAR.unity
+  artifactKey: Guid(6bdce89659816455b9f906fc62d19910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BlankAR.unity using Guid(6bdce89659816455b9f906fc62d19910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740fddee6050caf9617042d55a3c5674') in 0.001845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.793010 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(0b988fbe6850e4a13ab69bb55c2d0b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(0b988fbe6850e4a13ab69bb55c2d0b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2273f87ceef7a446e6f9edc3091b8e3') in 0.000970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.560666 seconds.
+  path: Assets/Scenes/Image Tracking
+  artifactKey: Guid(51665191d87f24313ae85c300a19afe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Image Tracking using Guid(51665191d87f24313ae85c300a19afe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e53ca2075d6b5730514a45f1c73232') in 0.002843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.622207 seconds.
+  path: Assets/Scenes/Image Tracking/Images
+  artifactKey: Guid(0c11774a3f0d0446aa40f9ae18547e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Image Tracking/Images using Guid(0c11774a3f0d0446aa40f9ae18547e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9a878e9226e089e24fe91e0eda90c3') in 0.001874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 231.403148 seconds.
+  path: Assets/Scenes/Image Tracking/Images/Cards
+  artifactKey: Guid(0062fdd1534e547d4ad37b03beb36748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Image Tracking/Images/Cards using Guid(0062fdd1534e547d4ad37b03beb36748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b4db7b131b2adb6bca2d00034c1f52') in 0.000979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.628708 seconds.
+  path: Assets/Scenes/Image Tracking/Images/Cards/card_00.jpg
+  artifactKey: Guid(360adddec2a16496da30aceef1fb6645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Image Tracking/Images/Cards/card_00.jpg using Guid(360adddec2a16496da30aceef1fb6645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c7a0521b4df5f30824610ef5a92a70') in 0.897168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000551 seconds.
+  path: Assets/Scenes/Image Tracking/Images/Cards/card_05.jpg
+  artifactKey: Guid(d16ae6b9deca347b7ae1f397451448f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Image Tracking/Images/Cards/card_05.jpg using Guid(d16ae6b9deca347b7ae1f397451448f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d445682627f40da46074d7a9b0fa69') in 0.016798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Scenes/Image Tracking/Images/Cards/card_09.jpg
+  artifactKey: Guid(b80213c17d3844f669922943024655e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Image Tracking/Images/Cards/card_09.jpg using Guid(b80213c17d3844f669922943024655e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4e80ab002e844674d803ae66e44232') in 0.008994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Scenes/Image Tracking/Images/Cards/card_18.jpg
+  artifactKey: Guid(52be546ed6cdd43e4b539b8771386ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Image Tracking/Images/Cards/card_18.jpg using Guid(52be546ed6cdd43e4b539b8771386ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1f6672c8e21badf7fc2169ac9b0f19') in 0.008790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Scenes/Image Tracking/Images/Cards/card_17.jpg
+  artifactKey: Guid(5f1baa57c84764b4e93be2c39ff35c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Image Tracking/Images/Cards/card_17.jpg using Guid(5f1baa57c84764b4e93be2c39ff35c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e8a28bb518deedfbbdd9fc63bfaea3') in 0.009283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Scenes/Image Tracking/Images/Cards/card_02.jpg
+  artifactKey: Guid(1ba42296767974603bdcc6a8a2491ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Image Tracking/Images/Cards/card_02.jpg using Guid(1ba42296767974603bdcc6a8a2491ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf6bc5438c7ffcfacedf7b57bb18f36') in 0.011076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Scenes/Image Tracking/Images/Cards/card_14.jpg
+  artifactKey: Guid(45f3152c9aff6447c8245bcf32f103a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Image Tracking/Images/Cards/card_14.jpg using Guid(45f3152c9aff6447c8245bcf32f103a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee214986c9dcc75b9fb297040f9bfd57') in 0.009921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Scenes/Image Tracking/Images/Cards/card_21.jpg
+  artifactKey: Guid(751ee2b9147354eafbac53401034c0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Image Tracking/Images/Cards/card_21.jpg using Guid(751ee2b9147354eafbac53401034c0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cec3c80012cc96a920589482ff1e528') in 0.011791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Scenes/Image Tracking/Images/Cards/card_12.jpg
+  artifactKey: Guid(376f2c8e0eea44e81a001324be069768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Image Tracking/Images/Cards/card_12.jpg using Guid(376f2c8e0eea44e81a001324be069768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1411a0dd7eb398d5eb8ac34a5ec3b440') in 0.009962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Scenes/Image Tracking/Images/Cards/card_07.jpg
+  artifactKey: Guid(1f39ada73dc77406f8ca357d2d9bc7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Image Tracking/Images/Cards/card_07.jpg using Guid(1f39ada73dc77406f8ca357d2d9bc7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a8fcef63412b17ac65bebc9f76527d') in 0.009808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Scenes/Image Tracking/Images/Cards/card_16.jpg
+  artifactKey: Guid(affe0da5f10194eb39b8d574e9a73907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Image Tracking/Images/Cards/card_16.jpg using Guid(affe0da5f10194eb39b8d574e9a73907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d89c3192368423f6ff76bb0cefc5345') in 0.008919 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
